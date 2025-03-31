@@ -98,3 +98,5 @@ print("Nombre: ", nombre, " - Dia:", dia, " - Mes: ", mes, "- Año: ", año)
 #Convertir una tupla en una lista
 my_lista2=list(my_tupla)
 print(my_lista2)
+
+print("esto es lo que llevo de la tarea ")
