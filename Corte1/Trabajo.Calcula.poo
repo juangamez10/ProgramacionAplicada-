@@ -1,0 +1,74 @@
+"calculadora tipo poo, y ejemplo de modo de uso (while) "
+class Calculadora:
+    def __init__(self):
+        self.resultado = 0
+    
+    def sumar(self, numero):
+        self.resultado += numero
+        return self.resultado
+    
+    def restar(self, numero):
+        self.resultado -= numero
+        return self.resultado
+    
+    def multiplicar(self, numero):
+
+        self.resultado *= numero
+        return self.resultado
+    
+    def dividir(self, numero):
+        try:
+            self.resultado /= numero
+            return self.resultado
+        except ZeroDivisionError:
+            print("Error: No se puede dividir por cero")
+            return None
+    
+    def reset(self):
+        self.resultado = 0
+        return self.resultado
+    
+if __name__ == "__main__":
+    calc = Calculadora()
+    
+    while True:
+        print("\n--- Calculadora ---")
+        print(f"Resultado actual: {calc.resultado}")
+        print("Operaciones disponibles:")
+        print("1. Sumar")
+        print("2. Restar")
+        print("3. Multiplicar")
+        print("4. Dividir")
+        print("5. Reiniciar")
+        print("6. Salir")
+        
+        opcion = input("Seleccione una operación (1-6): ")
+        
+        if opcion == "6":
+            print("Saliendo de la calculadora...")
+            break
+        
+        if opcion in ["1", "2", "3", "4"]:
+            try:
+                numero = float(input("Ingrese el número: "))
+            except ValueError:
+                print("Error: Ingrese un número válido")
+                continue
+            
+            if opcion == "1":
+                print(f"Resultado: {calc.sumar(numero)}")
+            elif opcion == "2":
+                print(f"Resultado: {calc.restar(numero)}")
+            elif opcion == "3":
+                print(f"Resultado: {calc.multiplicar(numero)}")
+            elif opcion == "4":
+                resultado = calc.dividir(numero)
+                if resultado is not None:
+                    print(f"Resultado: {resultado}")
+        
+        elif opcion == "5":
+            calc.reset()
+            print("Calculadora reiniciada a 0")
+        
+        else:
+            print("Opción no válida. Intente de nuevo.")
