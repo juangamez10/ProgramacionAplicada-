@@ -1,0 +1,19 @@
+<!DOCTYPE html> <!-- Declara que el documento es de tipo HTML5 -->
+<html lang="en"> <!-- Inicia el documento HTML e indica que el idioma es inglés -->
+<head> <!-- Inicia la sección de metadatos del documento -->
+    <meta charset="UTF-8"> <!-- Define la codificación de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ajusta la escala para que se vea bien en dispositivos móviles -->
+    <title>Document</title> <!-- Define el título de la pestaña del navegador -->
+</head> <!-- Cierra la sección de metadatos -->
+<body> <!-- Inicia el contenido visible de la página -->
+    <h1>Algo de música</h1> <!-- Muestra un encabezado principal con el texto "Algo de música" -->
+    <p> <!-- Inicia un párrafo -->
+        Disfruto mucho <strong>tocando la batería</strong>. <!-- Texto con énfasis en "tocando la batería" -->
+        Uno de mis bateristas favoritos es Neal Peart, que toca en la 
+        <a href="https://en.wikipedia.org/wiki/Rush_%28band%29" title="Rush Wikipedia article">Rush</a>. <!-- Enlace a Wikipedia sobre la banda Rush -->
+        Mi álbum favorito de Rush es actualmente 
+        <a href="http://www.deezer.com/album/942295">Moving Pictures</a>. <!-- Enlace al álbum Moving Pictures en Deezer -->
+    </p> <!-- Cierra el párrafo -->
+    <img src="http://www.cygnus-x1.net/links/rush/images/albums/sectors/sector2-movingpictures-cover-s.jpg" alt="Rush Moving Pictures album cover" width="400" height="400"> <!-- Inserta una imagen con tamaño definido y texto alternativo -->
+</body> <!-- Cierra el contenido visible -->
+</html> <!-- Cierra el documento HTML -->
