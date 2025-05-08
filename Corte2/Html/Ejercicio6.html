@@ -1,0 +1,120 @@
+<!DOCTYPE html> <!-- Declara que el documento es HTML5 -->
+<html lang="en"> <!-- Inicia el documento HTML e indica que el idioma es inglés -->
+<head> <!-- Inicia la sección de metadatos -->
+    <meta charset="UTF-8"> <!-- Define la codificación de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura la vista para dispositivos móviles -->
+    <title>My page title</title> <!-- Define el título que aparecerá en la pestaña del navegador -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One"
+      rel="stylesheet" /> <!-- Enlaza fuentes de Google Fonts -->
+    <link rel="stylesheet" href="style.css" /> <!-- Enlaza una hoja de estilo CSS externa -->
+</head> <!-- Cierra la sección de metadatos -->
+
+<body> <!-- Inicia el contenido visible de la página -->
+
+    <header> <!-- Inicia la cabecera del sitio (generalmente título o logo) -->
+        <h1>Header</h1> <!-- Encabezado principal dentro del header -->
+    </header> <!-- Cierra la cabecera -->
+
+    <nav> <!-- Inicia la sección de navegación -->
+        <ul> <!-- Lista de enlaces de navegación -->
+          <li><a href="#">Home</a></li> <!-- Enlace al inicio -->
+          <li><a href="#">Our team</a></li> <!-- Enlace al equipo -->
+          <li><a href="#">Projects</a></li> <!-- Enlace a proyectos -->
+          <li><a href="#">Contact</a></li> <!-- Enlace a contacto -->
+        </ul> <!-- Cierra la lista -->
+
+        <!-- A Search form: another common non-linear way to navigate through a site. -->
+        <form> <!-- Inicia un formulario de búsqueda -->
+          <input type="search" name="q" placeholder="Search query" /> <!-- Campo de búsqueda -->
+          <input type="submit" value="Go!" /> <!-- Botón para enviar la búsqueda -->
+        </form> <!-- Cierra el formulario -->
+    </nav> <!-- Cierra la sección de navegación -->
+
+    <!-- Our page's main content -->
+    <main> <!-- Inicia el contenido principal de la página -->
+
+        <!-- An article -->
+        <article> <!-- Inicia un artículo independiente -->
+          <h2>Article heading</h2> <!-- Encabezado del artículo -->
+
+          <p> <!-- Primer párrafo del artículo -->
+            Lorem ipsum dolor sit amet... <!-- Texto de ejemplo (relleno) -->
+          </p>
+
+          <section> <!-- Inicia una subsección del artículo -->
+            <h3>Subsection</h3> <!-- Encabezado de la subsección -->
+
+            <p> <!-- Párrafo dentro de la subsección -->
+              Donec ut librero sed accu vehicula... <!-- Texto de ejemplo -->
+            </p>
+
+            <p> <!-- Otro párrafo -->
+              Pelientesque auctor nisi id magna... <!-- Texto de ejemplo -->
+            </p>
+          </section> <!-- Cierra la subsección -->
+
+          <section> <!-- Otra subsección -->
+            <h3>Another subsection</h3> <!-- Encabezado de la subsección -->
+
+            <p> <!-- Párrafo -->
+              Donec viverra mi quis quam pulvinar... <!-- Texto de ejemplo -->
+            </p>
+
+            <p> <!-- Otro párrafo -->
+              Vivamus fermentum semper porta... <!-- Texto de ejemplo -->
+            </p>
+
+            <p> <!-- Párrafo que contiene una nota editorial -->
+                The King walked drunkenly... <!-- Texto de ejemplo -->
+                <span class="editor-note">
+                  [Editor's note: At this point in the play, the lights should be down low]. <!-- Nota del editor -->
+                </span>
+            </p>
+
+            <br> <!-- Salto de línea (espacio vertical) -->
+            <hr> <!-- Línea horizontal para separar secciones -->
+
+            <div class="shopping-cart"> <!-- Inicia un contenedor para el carrito de compras -->
+                <h2>Shopping cart</h2> <!-- Encabezado del carrito -->
+
+                <ul> <!-- Lista de productos -->
+                  <li> <!-- Primer producto -->
+                    <p> <!-- Descripción del producto -->
+                      <a href=""><strong>Silver earrings</strong></a>: $99.95. <!-- Enlace y precio -->
+                    </p>
+                    <img src="../products/3333-0985/thumb.png" alt="Silver earrings" /> <!-- Imagen del producto -->
+                  </li>
+                  <li>…</li> <!-- Otro producto (a completar) -->
+                </ul> <!-- Cierra la lista -->
+
+                <p>Total cost: $237.89</p> <!-- Muestra el costo total -->
+            </div> <!-- Cierra el contenedor del carrito -->
+
+            <br> <!-- Salto de línea -->
+            <hr> <!-- Línea horizontal -->
+            <hr /> <!-- Otra línea horizontal -->
+          </section> <!-- Cierra la segunda subsección -->
+        </article> <!-- Cierra el artículo -->
+
+        <!-- the aside content can also be nested within the main content -->
+        <aside> <!-- Inicia contenido relacionado, pero complementario -->
+          <h2>Related</h2> <!-- Encabezado del aside -->
+
+          <ul> <!-- Lista de enlaces relacionados -->
+            <li><a href="#">Oh I do like to be beside the seaside</a></li>
+            <li><a href="#">Oh I do like to be beside the sea</a></li>
+            <li><a href="#">Although in the North of England</a></li>
+            <li><a href="#">It never stops raining</a></li>
+            <li><a href="#">Oh well…</a></li>
+          </ul> <!-- Cierra la lista -->
+        </aside> <!-- Cierra el aside -->
+    </main> <!-- Cierra el contenido principal -->
+
+    <!-- The footer that is used across all the pages of our website -->
+    <footer> <!-- Inicia el pie de página -->
+        <p>©Copyright 2050 by nobody. All rights reversed.</p> <!-- Mensaje de derechos de autor (en tono humorístico) -->
+    </footer> <!-- Cierra el pie de página -->
+
+</body> <!-- Cierra el contenido visible -->
+</html> <!-- Cierra el documento HTML -->
